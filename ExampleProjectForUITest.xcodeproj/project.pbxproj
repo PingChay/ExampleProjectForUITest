@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D328EB9629A7247200A1D22B /* ContentPageObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = D328EB9529A7247200A1D22B /* ContentPageObject.swift */; };
+		D328EB9829A7248200A1D22B /* ContentViewScreenAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = D328EB9729A7248200A1D22B /* ContentViewScreenAction.swift */; };
+		D328EB9A29A726D000A1D22B /* ModalViewPageObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = D328EB9929A726D000A1D22B /* ModalViewPageObject.swift */; };
+		D328EB9C29A726DF00A1D22B /* PushViewPageObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = D328EB9B29A726DF00A1D22B /* PushViewPageObject.swift */; };
+		D328EB9E29A726FB00A1D22B /* ModalViewScreenAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = D328EB9D29A726FB00A1D22B /* ModalViewScreenAction.swift */; };
+		D328EBA029A7270A00A1D22B /* PushViewScreenAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = D328EB9F29A7270A00A1D22B /* PushViewScreenAction.swift */; };
+		D328EBA229A729B000A1D22B /* ExamplePatternUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D328EBA129A729B000A1D22B /* ExamplePatternUITests.swift */; };
 		D39916CE29A7066F00BEE7BF /* ExampleProjectForUITestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39916CD29A7066F00BEE7BF /* ExampleProjectForUITestApp.swift */; };
 		D39916D029A7066F00BEE7BF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39916CF29A7066F00BEE7BF /* ContentView.swift */; };
 		D39916D229A7067200BEE7BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D39916D129A7067200BEE7BF /* Assets.xcassets */; };
@@ -35,6 +42,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D328EB9529A7247200A1D22B /* ContentPageObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentPageObject.swift; sourceTree = "<group>"; };
+		D328EB9729A7248200A1D22B /* ContentViewScreenAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewScreenAction.swift; sourceTree = "<group>"; };
+		D328EB9929A726D000A1D22B /* ModalViewPageObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalViewPageObject.swift; sourceTree = "<group>"; };
+		D328EB9B29A726DF00A1D22B /* PushViewPageObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushViewPageObject.swift; sourceTree = "<group>"; };
+		D328EB9D29A726FB00A1D22B /* ModalViewScreenAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalViewScreenAction.swift; sourceTree = "<group>"; };
+		D328EB9F29A7270A00A1D22B /* PushViewScreenAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushViewScreenAction.swift; sourceTree = "<group>"; };
+		D328EBA129A729B000A1D22B /* ExamplePatternUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamplePatternUITests.swift; sourceTree = "<group>"; };
 		D39916CA29A7066F00BEE7BF /* ExampleProjectForUITest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleProjectForUITest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D39916CD29A7066F00BEE7BF /* ExampleProjectForUITestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleProjectForUITestApp.swift; sourceTree = "<group>"; };
 		D39916CF29A7066F00BEE7BF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -81,6 +95,26 @@
 				D39916F729A7089300BEE7BF /* PushView.swift */,
 			);
 			path = Scene;
+			sourceTree = "<group>";
+		};
+		D328EB9329A7243F00A1D22B /* PageObject */ = {
+			isa = PBXGroup;
+			children = (
+				D328EB9529A7247200A1D22B /* ContentPageObject.swift */,
+				D328EB9929A726D000A1D22B /* ModalViewPageObject.swift */,
+				D328EB9B29A726DF00A1D22B /* PushViewPageObject.swift */,
+			);
+			path = PageObject;
+			sourceTree = "<group>";
+		};
+		D328EB9429A7244900A1D22B /* ScreenAction */ = {
+			isa = PBXGroup;
+			children = (
+				D328EB9729A7248200A1D22B /* ContentViewScreenAction.swift */,
+				D328EB9D29A726FB00A1D22B /* ModalViewScreenAction.swift */,
+				D328EB9F29A7270A00A1D22B /* PushViewScreenAction.swift */,
+			);
+			path = ScreenAction;
 			sourceTree = "<group>";
 		};
 		D39916C129A7066F00BEE7BF = {
@@ -133,7 +167,10 @@
 		D39916E729A7067200BEE7BF /* ExampleProjectForUITestUITests */ = {
 			isa = PBXGroup;
 			children = (
+				D328EBA129A729B000A1D22B /* ExamplePatternUITests.swift */,
 				D39916EA29A7067200BEE7BF /* ExampleUITests.swift */,
+				D328EB9329A7243F00A1D22B /* PageObject */,
+				D328EB9429A7244900A1D22B /* ScreenAction */,
 			);
 			path = ExampleProjectForUITestUITests;
 			sourceTree = "<group>";
@@ -287,7 +324,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D328EB9A29A726D000A1D22B /* ModalViewPageObject.swift in Sources */,
+				D328EBA229A729B000A1D22B /* ExamplePatternUITests.swift in Sources */,
+				D328EB9829A7248200A1D22B /* ContentViewScreenAction.swift in Sources */,
+				D328EB9C29A726DF00A1D22B /* PushViewPageObject.swift in Sources */,
+				D328EBA029A7270A00A1D22B /* PushViewScreenAction.swift in Sources */,
+				D328EB9E29A726FB00A1D22B /* ModalViewScreenAction.swift in Sources */,
 				D39916EB29A7067200BEE7BF /* ExampleUITests.swift in Sources */,
+				D328EB9629A7247200A1D22B /* ContentPageObject.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

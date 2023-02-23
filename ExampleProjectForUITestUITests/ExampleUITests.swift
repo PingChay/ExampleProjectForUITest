@@ -38,7 +38,8 @@ final class ExampleUITests: XCTestCase {
         let usernameTextField = app.textFields["modalview_textfield"]
         XCTAssertTrue(modalButton.waitForExistence(timeout: 2))
         usernameTextField.tap()
-        usernameTextField.typeText("testusername")
+        sleep(1)
+        usernameTextField.typeText("user")
 
         let clickButton = app.buttons["modalview_button"]
         XCTAssertTrue(clickButton.waitForExistence(timeout: 2))
@@ -46,6 +47,6 @@ final class ExampleUITests: XCTestCase {
 
         let message = app.staticTexts["modalview_username"]
         XCTAssertTrue(message.waitForExistence(timeout: 2))
-        XCTAssertEqual(message.label, "testusername")
+        XCTAssertEqual(message.label, "user")
     }
 }
