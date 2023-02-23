@@ -27,7 +27,7 @@ struct ContentView: View {
         } label: {
             Text("Push View")
         }
-        .accessibilityIdentifier("contentview_modal")
+        .accessibilityIdentifier("contentview_push")
     }
 
     var modalView: some View {
@@ -38,7 +38,7 @@ struct ContentView: View {
         }.fullScreenCover(isPresented: $isPresented) {
             ModalView()
         }
-        .accessibilityIdentifier("contentview_push")
+        .accessibilityIdentifier("contentview_modal")
     }
 }
 
