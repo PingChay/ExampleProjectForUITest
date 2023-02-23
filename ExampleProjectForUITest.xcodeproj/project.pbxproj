@@ -12,8 +12,7 @@
 		D39916D229A7067200BEE7BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D39916D129A7067200BEE7BF /* Assets.xcassets */; };
 		D39916D529A7067200BEE7BF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D39916D429A7067200BEE7BF /* Preview Assets.xcassets */; };
 		D39916DF29A7067200BEE7BF /* ExampleProjectForUITestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39916DE29A7067200BEE7BF /* ExampleProjectForUITestTests.swift */; };
-		D39916E929A7067200BEE7BF /* ExampleProjectForUITestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39916E829A7067200BEE7BF /* ExampleProjectForUITestUITests.swift */; };
-		D39916EB29A7067200BEE7BF /* ExampleProjectForUITestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39916EA29A7067200BEE7BF /* ExampleProjectForUITestUITestsLaunchTests.swift */; };
+		D39916EB29A7067200BEE7BF /* ExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39916EA29A7067200BEE7BF /* ExampleUITests.swift */; };
 		D39916F829A7089300BEE7BF /* PushView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39916F729A7089300BEE7BF /* PushView.swift */; };
 		D39916FA29A7089F00BEE7BF /* ModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39916F929A7089F00BEE7BF /* ModalView.swift */; };
 /* End PBXBuildFile section */
@@ -44,8 +43,7 @@
 		D39916DA29A7067200BEE7BF /* ExampleProjectForUITestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleProjectForUITestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D39916DE29A7067200BEE7BF /* ExampleProjectForUITestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleProjectForUITestTests.swift; sourceTree = "<group>"; };
 		D39916E429A7067200BEE7BF /* ExampleProjectForUITestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleProjectForUITestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D39916E829A7067200BEE7BF /* ExampleProjectForUITestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleProjectForUITestUITests.swift; sourceTree = "<group>"; };
-		D39916EA29A7067200BEE7BF /* ExampleProjectForUITestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleProjectForUITestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D39916EA29A7067200BEE7BF /* ExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleUITests.swift; sourceTree = "<group>"; };
 		D39916F729A7089300BEE7BF /* PushView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushView.swift; sourceTree = "<group>"; };
 		D39916F929A7089F00BEE7BF /* ModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -135,8 +133,7 @@
 		D39916E729A7067200BEE7BF /* ExampleProjectForUITestUITests */ = {
 			isa = PBXGroup;
 			children = (
-				D39916E829A7067200BEE7BF /* ExampleProjectForUITestUITests.swift */,
-				D39916EA29A7067200BEE7BF /* ExampleProjectForUITestUITestsLaunchTests.swift */,
+				D39916EA29A7067200BEE7BF /* ExampleUITests.swift */,
 			);
 			path = ExampleProjectForUITestUITests;
 			sourceTree = "<group>";
@@ -290,8 +287,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D39916E929A7067200BEE7BF /* ExampleProjectForUITestUITests.swift in Sources */,
-				D39916EB29A7067200BEE7BF /* ExampleProjectForUITestUITestsLaunchTests.swift in Sources */,
+				D39916EB29A7067200BEE7BF /* ExampleUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
